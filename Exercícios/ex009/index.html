@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas (a ordem faz diferença)</h2>
+    <p>abaixo vemos como <strong>ordenar na mão usando a tag &lt;pre&gt;</strong>, o que é um problema se você precisar alterar a ordem em uma lista muito grande:</p>
+    <pre>
+        1 - acordar
+        2 - ligar para João
+        3 - tomar café
+        4 - estudar
+    </pre>
+    <h3>A tag ol (order list) vem para facilitar a listagem, então você precisa colocar cada item de lista na tag li (= list). Assim, se precisar adicionar um item ele já faz a numeração automaticamente começando pelo 1., 2., 3...</h3>
+    <p>
+        <ol type="i"><!--opção de types 1 (padrão), A, a, I, i-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Estudar (OBS a tag de fechameto &lt;/li&gt; não é necessária)
+        <li>Almoçar</li>
+        <li>Ir para a faculdade</li>
+        <li>Trabalhar</li>
+        <li>Estudar</li>
+        <li>Jogar</li>
+        <li>Dormir</li>
+        </ol>
+    </p>
+    <p>Note que não precisa usar a tag para saltar as linhas.</p>
+    <h2>Listas não ordenadas</h2>
+    <ul type="circle"> <!--opções de type disc (padrão, circle, square)-->
+        <li>comprar</li>
+        <li>leite</li>
+        <li>cerveja</li>
+        <li>queijo</li>
+        <li>frutas</li>
+        <li>milho</li>
+    </ul>
+<h2>Minhas linguagens favoritas</h2>
+<ol>
+    <li>Antigas</li>
+    <ol type="a">
+        <li>Clipper</li>
+        <li>Visual Basic</li>
+        <li>Fortran</li>
+        <li>Delphi</li>
+    </ol>
+    <li>Novas</li>
+    <ol type="a" start="5">
+        <li>PHP</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Kotlin</li>
+    </ol>
+    <h2>Lista de jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ol type="A">
+            <li>Batman</li>
+            <li>Tartarugas Ninja</li>
+            <li>The Legend of Kage</li>
+        </ol>
+        <li>SNES</li>
+        <ol type="A">
+            <li>Mario</li>
+            <ul type="circle">
+               <li>Super Mario World</li> 
+               <li>Mario Kart</li>
+            </ul>
+            <li>Stunt Race FX</li>
+            <li>Metal Warriors</li>
+            <li>Weapon Lord</li>
+        </ol type="A">
+        <li>PlayStation</li>
+        <ol>
+            <li>Resident Evil</li>
+            <li>Silent Hill</li>
+            <li>Vigilante 8</li>
+        </ol>
+    </ol>
+</ol>
+<h2>Lista de Definições (tag dl)</h2>
+<p>Temos tag dt para termo e tag dd para descrição, fica:</p>
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para a criação de conteúdo de site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para criação de design de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+</dl>
+</body>
+</html>

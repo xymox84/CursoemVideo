@@ -1,0 +1,59 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    background-image: radial-gradient(circle, #a68f8bd0, #ccb5abca, #f0d4c9ad, #fce0d4b7);
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+}
+
+div {
+    background-color: white;
+    width: 600px;
+    border-radius: 5px;
+    padding: 1%;
+    box-shadow: 2px 2px 5px #453d3ab1;
+    margin: auto;
+    text-align: justify;
+    }
+
+    h1#topico1 {
+        text-align: center;
+        font-size: 3em;
+        font-family: Kaushan Script;
+        text-decoration: overline;
+        color: #5E3A2B;
+    }
+    h2#topico2 {
+        text-align: center;
+        font-size: 2em;
+        font-family: Kaushan Script;
+        background-color: #5E3A2B;
+        color: white;
+        text-shadow: 1px 1px 1px #4b2f22db;
+        width: 330px;
+        margin: auto;
+        border-radius: 5px;
+    }
+        h1#topico3 {
+        text-align: center;
+        font-size: 3em;
+        font-family: Kaushan Script;
+        text-decoration: overline;
+        color: #446153;
+    }
+    h2#topico4 {
+        text-align: center;
+        font-size: 2em;
+        font-family: Kaushan Script;
+        background-color: #446153;
+        color: white;
+        text-shadow: 1px 1px 1px #2d3f36d3;
+        width: 370px;
+        margin: auto;
+        border-radius: 5px;
+    
+    }

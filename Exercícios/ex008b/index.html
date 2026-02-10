@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+<h2>Código-fonte</h2>
+<h3>Exemplo de fonte não monoespaçada</h3>
+<p>O comandado Document.getElementById('teste') é escrito em liguagem JavaScript.</p>
+<h3>Exemplo de fonte monoespaçada</h3>
+<p>O comando <code>Document.getElementById('teste')</code> é escrito em liguagem JavaScript.</p>
+<p>Perceva a diferença no esçaco das letras e veja a diferença de uma fonte monoespaçada para outra não monoespaçada</p>
+<h2>Vamos trabalhar com um código em Python abaixo só para ilustar algumas coisas usando a tag code</h2>
+<code>
+    num = int(input('digite um número'))
+    if num % 2 == 0:
+    print(f' O número {num} é PAR')
+    else: 
+    print(f' O número {num} é ÍMPAR')
+    print('Fim do programa')
+</code>
+<p>veja que o code não faz identação, colocando um comando do lado do outro, o que bagunça o código. Para identar,envelope toda a tag code em uma tag pre = pré-formatação. OBS: a pré-formatação faz todas as quebras de linha acontecerem sem o uso da tag "br". fica assim:</p>
+<pre>
+    <code>
+num = int(input('digite um número'))
+if num % 2 == 0:
+print(f' O número {num} é PAR')
+else:
+print(f' O número {num} é ÍMPAR')
+print('Fim do programa')
+    </code>
+</pre>
+<h2>Citação simples</h2>
+<p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+<h2>Citação completa</h2>
+<p>Segundo Jeff Noble, em seu livro HTML para leigos:</p>
+<blockquote cite="https://www.google.com.br/books/edition/Manifesto_Do_Partido_Comunista/xpTNywEACAAJ?hl=en">
+    O Manifesto do Partido Comunista (Manifest der Kommunistischen Partei, por seu título em alemão), muitas vezes chamado simplesmente de Manifesto Comunista, um dos tratados políticos mais influentes da história. um manifesto encomendado pela Liga dos Comunistas a Karl Marx e Friedrich Engels entre 1847 e 1848 e publicado pela primeira vez em Londres em 21 de fevereiro de 1848.</blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. E estou adorando!</p>
+    <h2>Texto invertido (só para irritar)</h2>
+    <p><bdo dir="rtl">Estou aprendendo HTML.</bdo></p>
+    <h2>Juntando tags para ver o resultado</h2>
+    <p>
+        Vamos juntar 3 tags: <mark style="background-color: chocolate;"><strong><em>mark + strong + em e ver o que acontece</em></strong></mark>.
+    </p>
+    <h2>Vamos testar algumas siglas para saber se estão obsoletas</h2>
+    <p>
+        <big> big está obsoleta</big>
+        <br>
+        <tt>
+             tt está obsoleta
+        </tt>
+        <br>
+<aside>aside continua válida</aside>
+<p><center>center funciona, mas está obsoleta</center>
+    </p>
+</body>
+</html>

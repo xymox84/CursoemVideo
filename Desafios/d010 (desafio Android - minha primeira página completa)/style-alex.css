@@ -1,0 +1,147 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('Pacote-projeto-d010/fontes/idroid.otf');
+}
+
+
+
+        body {
+             background-color: #E8E7C2;
+             font-family: Arial, Helvetica, sans-serif;
+             margin-top: 0px;
+             text-align: justify;
+            
+        }
+
+        h1 {
+            font-family: 'idroid';
+            color: #063D1E;
+        }
+
+        h2 {
+            font-family: 'idroid';
+            color: #063D1E;
+            background-image: linear-gradient(-90deg,white, #84E1AE );
+            padding: 3px 10px;
+        }
+        p {
+            text-indent: 50px;
+        }
+        
+        a.links {
+            font-weight: bold;
+            color: #063d1e;
+            background-color: #83E1AD;
+            text-decoration: none;
+        }
+
+        a.links:hover {
+            text-decoration: underline;
+            transition: 0.1s;
+            zoom: 120%;
+        }
+
+        strong {
+            color: #1A5C37;
+        }
+
+        main {
+            background-color: white;
+            width: 900px;
+            margin: auto;
+            margin-top: 10px;
+            padding: 10px 20px;
+            box-shadow: 4px 4px 4px #02150a42;
+        }
+        header {
+            background-image: linear-gradient(to bottom, #2fa866, #063d1e);
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            margin: -10px;
+        }
+        h1#titulo1 {
+            color: white;
+            font-size: 3em;
+            font-weight: normal;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+            font-family: Bebas Neue, Arial, Helvetica, sans-serif;
+        }
+
+        header > p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        nav {
+            background-color: #063d1e1d;
+            color: #83e1ad;
+            text-align: left;
+            padding: 10px;
+            margin: 0;
+            box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+            margin-bottom: 0px;  
+        }
+        nav > a {
+	color: #83e1ad;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	transition-duration: 0.5s;
+}
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+        }
+
+                nav > a:hover {
+            background-color: #83e1ad;
+            border-radius: 5px;
+            color: #063d1e;
+            transition: 0.5s;
+        }
+                 nav > a:active {
+color: #E8E7C2;
+        }
+
+        div.pics {
+            text-align: center;    
+        }
+
+        div.movie {
+            background-color: #063D1E;
+            text-align: center;
+            padding: 20px;
+            margin: 0px -20px;
+        }
+
+        div.final {
+            background-color: #83E1AD;
+            border-radius: 10px 10px ;
+            box-shadow: 4px 4px 4px #02150a42;
+        }
+
+        div.final > h3 {
+            background-color: #1A5C37;
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 10px 10px 0px 0px;
+
+        }
+
+        div.final > p {
+            padding: 0px 20px 10px 20px;
+        }
+footer {
+    background-color: #063D1E;
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding: 10px;
+    margin: 20px;
+}
