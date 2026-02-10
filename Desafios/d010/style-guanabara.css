@@ -55,11 +55,11 @@ header > p {
     font-family: var(--font-padrão);
     max-width: 600px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: none;
     padding-left: 10px;
     padding-right: 10px;
     text-shadow: 3px 3px 5px #04271383;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
 }
 
 nav {
