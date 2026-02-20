@@ -30,42 +30,45 @@ header h1:hover {
 
 main p {
     font-family: 'Sriracha', cursive;
-    font-size: 60px;
+    font-size: 3.5vw;
     padding: 100px 40px 100px 40px;
     line-height: 2.0;
 }
 
 #pic1 {
     background-image: url(imagens/background001.jpg);
+    height: 100vh;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 5px rgba(0, 0, 0, 0.294);
-    
 }
 
 #pic2 {
     background-image: url(imagens/background002.jpg);
+    height: 100vh;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 6px 6px 5px rgba(0, 0, 0, 0.294);
-    
+    box-shadow: inset 6px 6px 5px rgba(0, 0, 0, 0.294);  
+    position: relative;
 }
 
 .fundo {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.407);
-    max-width: 800px;
-    background-position: left;
     height: fit-content;
-    margin-top: 60px 20px 60px 20px;
-    height: min-content;
+    width: fit-content;
+    background-size: 100% 100%;
+    
 
-
+    /* max-width: 900px;
+    height: fit-content;
+    margin-top: 60px 20px 60px 20px; */
 }
+
 
 footer {
     background-color: black;
