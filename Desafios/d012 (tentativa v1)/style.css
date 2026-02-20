@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+header > h1 {
+    font-family: 'Passion One', Arial, Helvetica, sans-serif;
+    font-size: 145px;
+    padding-top: 50px;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1:hover {
+    text-decoration: underline;
+}
+
+main p {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    padding: 100px 40px 100px 40px;
+    line-height: 2.0;
+}
+
+#pic1 {
+    background-image: url(imagens/background001.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 5px rgba(0, 0, 0, 0.294);
+}
+
+#pic2 {
+    background-image: url(imagens/background002.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 5px rgba(0, 0, 0, 0.294);  
+    position: relative;
+}
+
+.fundo {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.407);
+    height: fit-content;
+    width: fit-content;
+    background-size: 100% 100%;
+    
+
+    /* max-width: 900px;
+    height: fit-content;
+    margin-top: 60px 20px 60px 20px; */
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 3px;
+}
+footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+strong:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 5px;
+    color: rgb(51, 51, 51);
+    padding: 3px;
+    transition: transform 0.4s ease;
+}
+
