@@ -42,7 +42,7 @@ main p {
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 5px rgba(0, 0, 0, 0.294);
-    position: relative;
+    
 }
 
 #pic2 {
@@ -52,7 +52,7 @@ main p {
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 5px rgba(0, 0, 0, 0.294);
-    position: relative;
+    
 }
 
 .fundo {
