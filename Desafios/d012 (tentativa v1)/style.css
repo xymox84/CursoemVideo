@@ -20,12 +20,12 @@ header > h1 {
     padding-top: 50px;
 }
 
-header > p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 header h1:hover {
     text-decoration: underline;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main p {

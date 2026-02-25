@@ -71,22 +71,12 @@ section.normal > p {
 
 section.imagem {
     background-color: rgb(44, 44, 44);
-    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: white;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.352);
-}
-
-section.imagem {
-    background-color: rgb(44, 44, 44);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
 }
 
 #pic1 {
@@ -100,7 +90,7 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.254);
     display: inline-block;
     padding: 5px;
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.508);
 }
 
 footer {
